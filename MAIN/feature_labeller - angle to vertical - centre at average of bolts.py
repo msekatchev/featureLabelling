@@ -331,7 +331,7 @@ for inputPoints in input_feature_locations:
         if(len(ordered_input_bolts)>=22):
             bolt_angle_centre_x = np.sum(ordered_input_bolts, axis=0)[0] / len(ordered_input_bolts)
             bolt_angle_centre_y = np.sum(ordered_input_bolts, axis=0)[1] / len(ordered_input_bolts)
-            print(True)
+            #print(True)
         else:
             bolt_angle_centre_x = np.sum(reprojected_points, axis=0)[0] / len(reprojected_points)
             bolt_angle_centre_y = np.sum(reprojected_points, axis=0)[1] / len(reprojected_points)
