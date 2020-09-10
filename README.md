@@ -11,3 +11,9 @@ Scripts and samples for labelling features, given 2D input points and camera pos
 ## Source
 * Original photos and input files
 * Derived camera positions for original images used in MAIN and cornerImage-379
+
+
+
+## determiningCameraPose
+* Script for deriving camera parameters
+* Examples of output using centre labels on image 045
