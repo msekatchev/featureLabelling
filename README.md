@@ -17,3 +17,7 @@ Scripts and samples for labelling features, given 2D input points and camera pos
 ## determiningCameraPose
 * Script for deriving camera parameters
 * Examples of output using centre labels on image 045
+
+
+## interPhotoLabelling
+* Attempt at labelling adjacent images - knowing the camera position in one image and using the change in yaw to determine the camera position in the next one.
